@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Patrick Hand';
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(7a224f47a56b557e792ce8c06c711dc3.jpg);
+    display: flex;
+    text-align: center;
+    background-size: cover;
+    justify-content: center;
+}
+.card{
+    width: 70%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    border:  solid 1px rgba(255, 255, 255, 0.5);
+    border-radius: 60px;
+    padding: 100px 50px;
+    margin: 50px auto;
+    box-shadow: 0 4px 30px rgba(60, 64, 66, 0.5);
+    backdrop-filter: blur(8px);
+}
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in;
+}
+h1{
+    font-family: 'Shrikhand';
+    font-weight: bolder;
+    font-size: 55px;
+    margin-top: 15px;
+}
+table{
+    text-align: left;
+    font-size: 25px;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+td:first-child{
+    font-weight: bold;
+}
+img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 4px 30px rgba(60, 64, 66, 0.5);
+}
